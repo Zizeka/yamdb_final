@@ -17,7 +17,6 @@ from reviews.models import Category, Genre, Review, Title, User
 
 from .filters import TitleFilter
 from .mixins import BaseModelViewSet
-
 from .permissions import (IsAdmin, IsAdminOrReadOnly,
                           IsAuthorOrAdministratorOrReadOnly)
 
