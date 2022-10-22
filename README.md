@@ -1,5 +1,3 @@
-# yamdb_final
-yamdb_final
 
 ![работай штука](https://github.com/Zizeka/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
@@ -303,3 +301,6 @@ NEED_TO_PARSE = {
 'comments.csv': Comment,
 }
 ```
+=======
+
+>>>>>>> 63cc422476887f3c10b8572ec63db3ca5a527755
