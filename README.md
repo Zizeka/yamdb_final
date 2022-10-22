@@ -1,6 +1,6 @@
 yamdb_final
 
-![работай штука](https://github.com/Zizeka/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![работай штука](https://github.com/Zizeka/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
 
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Titles). Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий (Category) может быть расширен администратором (например, можно добавить категорию «Изобразительное искусство» или «Ювелирка»).
 Сами произведения в YaMDb не хранятся, здесь нельзя посмотреть фильм или послушать музыку.
