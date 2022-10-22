@@ -1,5 +1,5 @@
-from api.serializers import (GenreSerializer, CategorySerializer,
-                             CommentSerializer, ConformationCodeSerializer,
+from api.serializers import (CategorySerializer, CommentSerializer,
+                             ConformationCodeSerializer, GenreSerializer,
                              ReadOnlyTitleSerializer, ReviewSerializer,
                              TitleSerializer, UserSerializer)
 from django.conf import settings
@@ -13,10 +13,11 @@ from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 from rest_framework_simplejwt.tokens import AccessToken
+from reviews.models import Category, Genre, Review, Title, User
 
 from .filters import TitleFilter
 from .mixins import BaseModelViewSet
-from reviews.models import User, Category, Genre, Title, Review
+
 from .permissions import (IsAdmin, IsAdminOrReadOnly,
                           IsAuthorOrAdministratorOrReadOnly)
 
