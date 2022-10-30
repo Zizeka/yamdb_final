@@ -1,7 +1,7 @@
 ### yamdb_final
-Сайт Ятуб https://zizekaz.zapto.org/
+http://84.201.153.0/api/v1/
 
-https://84.201.153.0/redoc/
+http://84.201.153.0/redoc/
 
 ![работай штука](https://github.com/Zizeka/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
 
