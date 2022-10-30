@@ -1,4 +1,4 @@
-### yamdb_final
+### Проект Yamdb
 http://84.201.153.0/api/v1/
 
 http://84.201.153.0/redoc/
